@@ -1,0 +1,111 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>About</title>
+
+  <!-- Pretty Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+  <!-- CSS Defaults -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/default.css">
+
+  <!-- Main CSS file -->
+  <link rel="stylesheet" href="css/main.css">
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        text-align: center;
+    }
+    .team-member {
+        margin-bottom: 20px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 20px;
+    }
+    .team-member:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+</style>
+</head>
+
+  <body>
+    <div class="loading-container">
+      <div class="loading-screen">
+      </div>
+    </div>
+
+    <header>
+      <nav class="main-navigation">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Better to wrap barba container as close as possible -->
+    <div data-barba="wrapper">
+      <!-- Only this section changes on link navigation -->
+      <main data-barba="container" data-barba-namespace="about">
+        <div class="heading-container">
+          <h1 class="main-heading is-animated">About the Team<br>
+              <h2>John Doe</h2>
+              <p>Position: CEO</p>
+              <p>About: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero et ante consectetur lobortis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed convallis nulla in eros aliquam consequat.</p>
+          
+              <h2>Jane Smith</h2>
+              <p>Position: Marketing Director</p>
+              <p>About: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non libero et ante consectetur lobortis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed convallis nulla in eros aliquam consequat.</p>
+          </div></h1>
+        </div>
+      </main>
+    </div>
+
+    <footer>
+      <ul>
+        <li><a href="">Alan Royce Gabriel</a></li>
+        <li>•</li>
+        <li><a href="" target="_blank">Find on Github</a></li>
+      </ul>
+
+    </footer>
+
+  </body>
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <!-- Barba Core -->
+  <script src="https://unpkg.com/@barba/core"></script>
+
+  <!-- GSAP for animation -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
+  <!-- Some basic helper functions -->
+  <script src="js/helper.js"></script>
+
+  <!-- Main JS file -->
+  <script src="js/main.js"></script>
+
+
+</html>

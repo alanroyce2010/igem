@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Engineered Diatom for Acetophenone Production</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- Pretty Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+  <!-- CSS Defaults -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/default.css">
+
+  <!-- Main CSS file -->
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="css/ChemDoodleWeb.css" type="text/css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r73/three.min.js'></script>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/141228/OrbitControls.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5.1/dat.gui.min.js'></script>
+  
+  <script type="text/javascript" src="js/ChemDoodleWeb.js"></script>
+      <script>
+          MathJax.Hub.Config({
+            TeX: {
+              packages: ['amsmath']
+            }
+          });
+  </script>
+</head>
+
+
+
+  <body>
+    <canvas id="canvas" height="800px"></canvas>
+    
+    <script src="script.js">
+  
+    </script>
+  
+  <script>
+      MathJax.startup.promise.then(() => {
+        MathJax.Hub.Typeset();
+      });
+    </script>
+
+
+    <div class="loading-container">
+      <div class="loading-screen">
+      </div>
+    </div>
+
+    <header>
+      <nav class="main-navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="project.html">Project Details</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Better to wrap barba container as close as possible -->
+    <div data-barba="wrapper">
+      <!-- Only this section changes on link navigation -->
+      <main data-barba="container" data-barba-namespace="home">
+        <div class="heading-container">
+          <h1 class="main-heading is-animated">Engineering Diatoms for <br><span class="green-heading-bg">Sustainable Acetaminophen </span><br>Production.<br></h1>
+        </div>
+      </main>
+    </div>
+   
+  <style>
+    .bottom-three {
+       margin-bottom: 10cm;
+    }
+    
+  </style>
+  <div class="bottom-three"></div>
+  <div class="content">
+  <section >
+    <h2>Project Overview</h2>
+    This molecule represents \[\ce{C6H6} (benzene)\].            
+    <p>This project aims to engineer the diatom <i>Thalassiosira pseudonana</i> to produce the valuable industrial chemical <b>Acetophenone</b>  in a sustainable and environmentally friendly manner.</p>
+    <p>Diatoms are single-celled photosynthetic **microalgae** abundant in the oceans and known for their efficient CO<sub>2</sub> fixation capabilities. By introducing specific genes into their genome, we can modify their natural metabolic pathways to produce desired compounds like acetophenone.</p>
+  </section>
+
+  </div>
+
+    <footer>
+      <ul>
+        <li><a href="mailto:bs22b001@smail.iitm.ac.in">Alan Royce Gabriel</a></li>
+        <li>•</li>
+        <li><a href="https://github.com/alanroyce2010" target="_blank">Find on Github</a></li>
+      </ul>
+    </footer>
+
+  </body>
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <!-- Barba Core -->
+  <script src="https://unpkg.com/@barba/core"></script>
+
+  <!-- GSAP for animation -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
+  <!-- Some basic helper functions -->
+  <script src="js/helper.js"></script>
+
+  <!-- Main JS file -->
+  <script src="js/main.js"></script>
+   
+</html>
+<!DOCTYPE html>
